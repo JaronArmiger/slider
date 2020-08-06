@@ -1,0 +1,91 @@
+@font-face {
+  font-family: 'Gardenisa';
+  src: url('./Gardenisa.ttf') format('ttf');
+}
+
+:root {
+  font-size: 10px;
+  font-family: 'Gardenisa';
+}
+
+#main-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#main-title {
+  font-size: 10rem;
+  margin-top: 5rem;
+}
+
+button {
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+}
+
+#frame {
+  margin-top: 5rem;
+  width: 500px;
+  overflow: hidden;
+}
+
+#img-container {
+  display: flex;
+  align-items: center;
+  transition: transform .7s ease-out;
+}
+
+.slider-image {
+	width: 500px;
+	border-radius: 1rem;
+}
+
+.slider-btn {
+  background-color: #fc3503;
+  border-radius: 1rem;
+  padding: 1rem 2rem;
+  font-size: 2rem;
+  font-weight: 700;
+  color: white;
+  transition: background-color .3s;
+}
+
+.slider-btn:hover {
+  background-color: #fa7250;
+}
+
+
+#button-container {
+  width: 500px;
+  display: flex;
+  justify-content: space-around;
+  margin: 1rem 0;
+}
+
+#choice-container {
+  width: 500px;
+  display: flex;
+  justify-content: space-around;
+  margin: 1rem 0;
+}
+
+.choice-btn {
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+  transition: all .25s;
+  background-color: #3745db;
+}
+
+.choice-btn:hover {
+  transform: scale(1.2);
+
+}
+
+.chosen {
+  box-shadow: 0 0 5px 5px #3745db;
+}

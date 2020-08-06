@@ -1,10 +1,30 @@
 <!DOCTYPE html>
 <html>
   <head>
-  	<title>template</title>
+  	<title>slider</title>
+  	<link rel="stylesheet" href="styles/style.css">
   </head>
   <body>
-  
+  	<div id="main-container">
+  	  <h1 id="main-title">ANIMALS</h1>
+  	  <div id="frame">
+        <div id="img-container">
+          <img src="images/anteater.jpg" alt="" class="slider-image">
+          <img src="images/fish.jpeg" alt="" class="slider-image">
+          <img src="images/gator.jpg" alt="" class="slider-image">
+          <img src="images/koala.jpg" alt="" class="slider-image" style="margin-right: 4px">
+          <img src="images/lizard.jpg" alt="" class="slider-image">
+          <img src="images/orangutan.jpg" alt="" class="slider-image">
+          <img src="images/pelican.jpeg" alt="" class="slider-image">
+          <img src="images/salamander.jpg" alt="" class="slider-image">
+        </div>
+      </div>
+      <div id="choice-container"></div>
+      <div id="button-container">
+       <button id="prev" class="slider-btn"><</button>
+       <button id="next" class="slider-btn">></button>
+      </div>
+    </div>
   	<script src="main.js"></script>
   </body>
 </html>
